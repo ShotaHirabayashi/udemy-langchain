@@ -36,5 +36,6 @@ if __name__ == "__main__":
         auth = None
 
     index = create_index()
+    print(index)
 
     demo.launch(auth=auth)
